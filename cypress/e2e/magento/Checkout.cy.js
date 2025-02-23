@@ -1,6 +1,6 @@
 import checkAddres from "../../support/page-objects/check-addres"
 
-describe('template spec', () => {
+describe('Testing Procced to checkout until finish', () => {
   beforeEach(() => {
     
     cy.visit('/')
