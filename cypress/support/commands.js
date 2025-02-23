@@ -24,6 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 <<<<<<< HEAD
+<<<<<<< HEAD
 /// <reference types="cypress" />
 
 Cypress.Commands.add('verifyText', (locator, expectedText) => {
@@ -48,6 +49,8 @@ Cypress.Commands.add('clickWebElement', (locator) => {
   })
 
 =======
+=======
+>>>>>>> d4d8816 (upload checkout test script)
 
 Cypress.Commands.add('addToChart', () => {
     cy.get('#product-addtocart-button').click()
@@ -81,5 +84,8 @@ Cypress.Commands.add('addProduct', () => {
 Cypress.Commands.add('checkAddres', (checkoutAddres) => {
     cy.get('.ship-to > .shipping-information-content').should('include.text', checkoutAddres)
 })
+<<<<<<< HEAD
 >>>>>>> 2b66a64 (update local repo)
+=======
+>>>>>>> d4d8816 (upload checkout test script)
 
