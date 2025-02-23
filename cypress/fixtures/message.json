@@ -1,0 +1,7 @@
+{
+
+    "emptyField": "This is a required field.",
+    "emailInvalid": "Please enter a valid email address (Ex: johndoe@domain.com).",
+    "passInvalid":"Minimum of different classes of characters in password is 3. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",
+    "passLess8Digits": "Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored."
+}

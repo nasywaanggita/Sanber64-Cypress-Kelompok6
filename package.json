@@ -1,5 +1,22 @@
 {
   "devDependencies": {
     "cypress": "^14.0.3"
-  }
+  },
+  "name": "sanber64-cypress-kelompok6",
+  "version": "1.0.0",
+  "description": "Nama Anggota Kelompok :",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasywaanggita/Sanber64-Cypress-Kelompok6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nasywaanggita/Sanber64-Cypress-Kelompok6/issues"
+  },
+  "homepage": "https://github.com/nasywaanggita/Sanber64-Cypress-Kelompok6#readme"
 }
