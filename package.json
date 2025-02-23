@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "test": "npx cypress open",
+    "checkout_test": "npx cypress run --browser chrome --spec 'cypress/e2e/magento/chooseUpdate.cy.js'"
+  },
   "devDependencies": {
     "cypress": "^14.0.3"
   }
