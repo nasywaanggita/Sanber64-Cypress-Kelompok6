@@ -17,7 +17,6 @@ describe('Testing Procced to checkout until finish', () => {
     //choose product
     cy.addProduct()
     //cy.addToChart()
-    cy.wait(2000)
     //showcart
     cy.get('.showcart').click()
     cy.get('.toggle').click()
@@ -49,8 +48,6 @@ describe('Testing Procced to checkout until finish', () => {
   it('Checkout use other existing addres for shipping and payment', () => {
     //choose product
     cy.addProduct()
-    //cy.addToChart()
-    cy.wait(2000)
     //showcart
     cy.get('.showcart').click()
     cy.get('.toggle').click()
@@ -117,10 +114,8 @@ describe('Testing Procced to checkout until finish', () => {
 
   it('Checkout with new shipping addres without Addres', () => {
     cy.addProduct()
-    cy.wait(2000)
     cy.get('.showcart').click()
-    //cy.get('.toggle').click()
-
+    
     //navigate to shopping chart page
     cy.get(':nth-child(7) > .secondary > .action > span').click()
     cy.get('.base').should('have.text', 'Shopping Cart')
@@ -135,9 +130,6 @@ describe('Testing Procced to checkout until finish', () => {
     cy.get('#shipping-save-in-address-book').click() //to uncheck save addres
     cy.get('[class="field-error"]').should('include.text', 'This is a required field.')
 
-    //cy.get('[class="action primary action-save-address"]').click()
-    //cy.get(':nth-child(1) > :nth-child(1) > .radio').click()
-    //cy.get('.button').click()
     })
 
   })
