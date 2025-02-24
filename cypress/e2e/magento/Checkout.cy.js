@@ -1,18 +1,6 @@
 import checkAddres from "../../support/page-objects/check-addres"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 describe('Testing Procced to checkout until finish', () => {
-=======
-describe('template spec', () => {
->>>>>>> d4d8816 (upload checkout test script)
-=======
-describe('Testing Procced to checkout until finish', () => {
->>>>>>> 349c3ae (update describe)
-=======
-describe('Testing Procced to checkout until finish', () => {
->>>>>>> 2eef7edaa4c067e9a9014190aa57c9a59d31a597
   beforeEach(() => {
     
     cy.visit('/')
