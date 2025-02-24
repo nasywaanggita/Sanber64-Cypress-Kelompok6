@@ -23,3 +23,27 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+/// <reference types="cypress" />
+
+Cypress.Commands.add('verifyText', (locator, expectedText) => {
+    cy.get(locator).should('have.text',expectedText)
+})
+
+Cypress.Commands.add('verifyTextContains', (locator, expectedText) => {
+  cy.get(locator).should('contain.text',expectedText)
+})
+
+
+Cypress.Commands.add('verifyIsDisplayed', (locator) => {
+    cy.get(locator).should('be.visible')
+  })
+
+Cypress.Commands.add('inputText', (locator, txtValue) => {
+    cy.get(locator).type(txtValue)
+  })
+
+Cypress.Commands.add('clickWebElement', (locator) => {
+    cy.get(locator).click()
+  })
+
+
